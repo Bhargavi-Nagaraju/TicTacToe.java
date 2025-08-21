@@ -154,10 +154,10 @@ class TicTacToe {
             t.dispBoard();
 
             if (TicTacToe.checkColWin() || TicTacToe.checkRowWin() || TicTacToe.checkDiagWin()) {
-                System.out.println(cp.name + " has Won! 🎉");
+                System.out.println(cp.name + " has Won! ");
                 break;
             } else if (TicTacToe.checkDraw()) {
-                System.out.println("Game is a Draw 🤝");
+                System.out.println("Game is a Draw ");
                 break;
             }
 
@@ -166,3 +166,4 @@ class TicTacToe {
         }
     }
 }
+
